@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<resultset statement="select CUS_NAME,CUS_GENDER from customer where CUS_NAME like "A%" or CUS_NAME like "%A"
+LIMIT 0, 50000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="CUS_NAME">AAKASH</field>
+		<field name="CUS_GENDER">M</field>
+	</row>
+
+	<row>
+		<field name="CUS_NAME">AMAN</field>
+		<field name="CUS_GENDER">M</field>
+	</row>
+
+	<row>
+		<field name="CUS_NAME">NEHA</field>
+		<field name="CUS_GENDER">F</field>
+	</row>
+
+	<row>
+		<field name="CUS_NAME">MEGHA</field>
+		<field name="CUS_GENDER">F</field>
+	</row>
+</resultset>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<resultset statement="select PRO_ID, PRO_NAME from product where PRO_ID in 
+(select PRO_ID from supplier_pricing where PRICING_ID in 
+(select PRICING_ID from `order` where ORD_DATE > '2021-10-05'))
+LIMIT 0, 50000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="PRO_ID">1</field>
+		<field name="PRO_NAME">GTA V</field>
+	</row>
+
+	<row>
+		<field name="PRO_ID">4</field>
+		<field name="PRO_NAME">OATS</field>
+	</row>
+</resultset>

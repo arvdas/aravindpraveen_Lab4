@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<resultset statement="call `order-directory`.supplierid_name_rating_service()"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="PRICING_ID">1</field>
+		<field name="rating">3.0000</field>
+		<field name="Type_of_Service">Average Service</field>
+	</row>
+
+	<row>
+		<field name="PRICING_ID">2</field>
+		<field name="rating">1.0000</field>
+		<field name="Type_of_Service">Poor Service</field>
+	</row>
+
+	<row>
+		<field name="PRICING_ID">3</field>
+		<field name="rating">2.6667</field>
+		<field name="Type_of_Service">Average Service</field>
+	</row>
+
+	<row>
+		<field name="PRICING_ID">4</field>
+		<field name="rating">5.0000</field>
+		<field name="Type_of_Service">Excellent Service</field>
+	</row>
+
+	<row>
+		<field name="PRICING_ID">5</field>
+		<field name="rating">2.3333</field>
+		<field name="Type_of_Service">Average Service</field>
+	</row>
+
+	<row>
+		<field name="PRICING_ID">6</field>
+		<field name="rating">4.0000</field>
+		<field name="Type_of_Service">Average Service</field>
+	</row>
+
+	<row>
+		<field name="PRICING_ID">7</field>
+		<field name="rating">4.0000</field>
+		<field name="Type_of_Service">Average Service</field>
+	</row>
+
+	<row>
+		<field name="PRICING_ID">8</field>
+		<field name="rating">2.0000</field>
+		<field name="Type_of_Service">Poor Service</field>
+	</row>
+
+	<row>
+		<field name="PRICING_ID">9</field>
+		<field name="rating">3.0000</field>
+		<field name="Type_of_Service">Average Service</field>
+	</row>
+
+	<row>
+		<field name="PRICING_ID">14</field>
+		<field name="rating">0.0000</field>
+		<field name="Type_of_Service">Poor Service</field>
+	</row>
+</resultset>

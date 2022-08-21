@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<resultset statement="select PRO_NAME,PRO_ID from product where PRO_ID in 
+(select PRO_ID from supplier_pricing where PRICING_ID in 
+(select PRICING_ID from `order` where CUS_ID=2))
+LIMIT 0, 50000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="PRO_NAME">GTA V</field>
+		<field name="PRO_ID">1</field>
+	</row>
+
+	<row>
+		<field name="PRO_NAME">TSHIRT</field>
+		<field name="PRO_ID">2</field>
+	</row>
+
+	<row>
+		<field name="PRO_NAME">MILK</field>
+		<field name="PRO_ID">6</field>
+	</row>
+</resultset>
